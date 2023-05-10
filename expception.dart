@@ -1,8 +1,18 @@
 import 'dart:io';
 
 void main(List<String> args) {
-  int distance =10;
-  int time =0;
+
+stdout.write("enter distance");
+ stdout.writeln();
+   int distance = int.parse(stdin.readLineSync()!);
+  stdout.writeln();
+
+  stdout.write("enter time");
+ stdout.writeln();
+   int time = int.parse(stdin.readLineSync()!);
+  stdout.writeln();
+  // int distance =10;
+  // int time =0;
 
 
   int speed;
